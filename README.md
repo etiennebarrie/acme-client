@@ -168,7 +168,7 @@ order.certificate # => PEM format certificate
 
 ### Certificate revokation
 
-To revoke a certificate you can call `#revoke` with certificate.
+To revoke a certificate you can call `#revoke` with the certificate.
 
 ```ruby
 client.revoke(certificate: certificate)
@@ -176,7 +176,7 @@ client.revoke(certificate: certificate)
 
 ### Certificate renewal
 
-The is no renewal precess, just create a new order.
+The is no renewal process, just create a new order.
 
 
 ## Not implemented
